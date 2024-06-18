@@ -1,0 +1,31 @@
+.nav {
+    height: 90px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+/* .nav_black {
+    background-color: #111;
+    opacity: 0.69;
+} */
+
+.nav_contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_logo {
+    width: 10rem;
+    position: absolute;
+    top: 0.938rem;
+    left: 2rem;
+}
+
+.nav_avatar {
+    width: 2rem;
+    position: absolute;
+    top: 25px;
+    right: 2rem;
+}

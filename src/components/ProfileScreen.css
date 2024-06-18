@@ -1,0 +1,102 @@
+.nav_profile {
+    height: 90px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.nav_profile_logo {
+    width: 10rem;
+    position: absolute;
+    top: 0.938rem;
+    left: 10rem;
+}
+
+.nav_profile_contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile_main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 2rem;
+    margin: 3rem 0;
+    padding: 2rem 0;
+}
+
+.profile_main_body {
+    padding: 3rem;
+    background-color: rgba(76, 75, 80, 0.3);
+}
+
+.profile_body {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.profile_avatar img {
+    padding-top: 10px;
+    width: 6rem;
+}
+
+.profile_plans {
+    margin: 1rem 0;
+}
+
+.profile_plan_details {
+    width: 40vw;
+    margin-top: 0.6rem;
+}
+
+.profile_plan_details h2 {
+    font-size: 1.1rem;
+    padding: 0.8rem;
+    background-color: grey;
+}
+
+.plans {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plan_detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.plan_resolution {
+    font-size: 0.8rem;
+}
+
+.plan_button {
+    padding: 0.5rem 0.8rem;
+    font-weight: 600;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 0.2rem;
+    transition:all 0.5s ease-in;
+}
+.plan_button:hover{
+    border: 1px solid rgb(244, 233, 235);
+    transform: scale(1.2);
+}
+.profile_signout {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0.6rem;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 0.2rem;
+    font-weight: 600;
+}
